@@ -4,6 +4,7 @@ malicious .bat file generator written in python3.
 Usage: python3 badbat.py
 
  Menu options:
+ 
         [*] list :                    list all available malicious .bat payloads.
         [*] describe <id> :           get a long description about the specified id.
         [*] outfile <outfile> :       the file which will store the generated payload.
@@ -12,7 +13,8 @@ Usage: python3 badbat.py
         [*] exit :                    close the program
   
  Available payloads:
-         id  name                       description
+         
+        id  name                       description
          
         [1] fork bomb :             overload CPU, crash system
         [2] user bomb :             create infinite system users
